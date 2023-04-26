@@ -21,7 +21,7 @@ import io.legado.app.utils.visible
 @Suppress("unused")
 class AutoCompleteTextView @JvmOverloads constructor(
     context: Context,
-    attrs: AttributeSet? ="https://fastly.jsdelivr.net/gh/zxj18/mhxs@main/zlxs.txt"
+    attrs: AttributeSet? = null
 ) : AppCompatAutoCompleteTextView(context, attrs) {
 
     var delCallBack: ((value: String) -> Unit)? = null
